@@ -516,12 +516,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-slate-500 {
+.bg-brand-nude {
   --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+  background-color: rgb(168 151 123 / var(--tw-bg-opacity));
 }
