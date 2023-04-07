@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Furniture website</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<h1 class="bg-brand-nude">hello tailwind</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Furniture website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <!-- hero section -->
+    <div class="container justify-center bg-brand-dark flex flex-col gap-28 pb-48">
+      <!-- header -->
+      <nav class="flex justify-between py-7 px-4">
+        <img src="./images/logo.svg" alt="logo" class="w-24" />
+
+        <div
+          class="grid place-content-center grid-cols-3 gap-2 text-white text-base"
+        >
+          <a href="" class="block"
+            ><iconify-icon
+              icon="material-symbols:home-outline"
+              class="border border-white rounded-full p-1.5 grid place-content-center"
+            ></iconify-icon
+          ></a>
+          <a href=""
+            ><iconify-icon
+              icon="ic:outline-shopping-cart"
+              class="border border-white rounded-full p-1.5 grid place-content-center"
+            ></iconify-icon
+          ></a>
+          <a href=""
+            ><iconify-icon
+              icon="ic:baseline-search"
+              class="border border-white rounded-full p-1.5 grid place-content-center"
+            ></iconify-icon
+          ></a>
+        </div>
+      </nav>
+
+      <!-- hero scetion -->
+      <article class="flex flex-col justify-center items-center gap-5">
+        <h1 class="text-white font-Sans font-bold text-3xl">
+          SHOP LUXUZY SOFAS
+        </h1>
+        <p class="font-Sans text-brand-light text-base text-center font-medium">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, maiores in distinctio numquam rerum sequi odit at molestias.
+        </p>
+        <button class="bg-brand-nude py-2 px-5 font-Sans text-white font-semibold text-base rounded-md">VISIT STORE</button>
+      </article>
+    </div>
+  </body>
 </html>
