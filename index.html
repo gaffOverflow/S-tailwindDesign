@@ -51,9 +51,9 @@
       <!-- hero content -->
 
       <article
-        class="flex flex-col justify-center items-center gap-5 sm:mx-20 md:mx-28 lg:mx-40"
+        class="flex flex-col justify-center items-center gap-5 sm:mx-20 md:mx-28 lg:mx-40 xl:mx-72"
       >
-        <h1 class="text-white font-Sans font-bold text-3xl">
+        <h1 class="text-white font-Sans font-bold text-3xl xl:text-6xl">
           SHOP LUXUZY SOFAS
         </h1>
         <p class="font-Sans text-brand-light text-base text-center font-medium">
@@ -71,11 +71,11 @@
     <!-- features section -->
 
     <main
-      class="px-7 py-20 bg-brand-dark flex flex-col items-center gap-10 md:px-12 lg:px-20"
+      class="px-7 py-20 bg-brand-dark flex flex-col items-center gap-10 md:px-12 lg:px-20 xl:px-28"
     >
       <h2 class="font-Sans font-semibold text-3xl text-white">FEATURES</h2>
       <!-- break -->
-      <div class="grid grid-cols-2 gap-7">
+      <div class="grid grid-cols-1 gap-7 sm:grid-cols-2 xl:grid-cols-3">
         <div
           class="card flex flex-col items-center text-center gap-4 border border-brand-nude rounded-md p-7"
         >
@@ -165,16 +165,18 @@
 
     <!-- launch section -->
 
-    <section class="p-7 bg-brand-dark md:px-12">
+    <section class="p-7 bg-brand-dark md:px-12 xl:px-28  xl:pt-48 ">
       <div
-        class="bg-brand-darker px-4 pt-7 pb-3 rounded-md flex flex-col items-center gap-7 sm:px-28 sm:pt-14 sm:pb-5"
+        class="bg-brand-darker px-4 pt-7 pb-3 rounded-md flex flex-col items-center gap-7 sm:px-28 sm:pt-14 sm:pb-5 xl:flex-row xl:justify-between xl:p-14"
       >
-        <article class="flex flex-col justify-center items-center gap-5">
-          <h2 class="text-white font-Sans font-bold text-2xl">
+        <article
+          class="flex flex-col justify-center items-center gap-5 xl:items-baseline xl:basis-3/6"
+        >
+          <h2 class="text-white font-Sans font-bold text-2xl xl:text-4xl">
             LAUNCHING SOON
           </h2>
           <p
-            class="font-Sans text-brand-light text-base text-center font-medium"
+            class="font-Sans text-brand-light text-base text-center font-medium xl:text-left"
           >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta,
             maiores in distinctio numquam rerum sequi odit at molestias.
@@ -185,13 +187,19 @@
             VISIT STORE
           </button>
         </article>
-        <img src="./images/category-c.webp" alt="" />
+        <img
+          src="./images/category-c.webp"
+          alt=""
+          class="xl:basis-3/6 xl:-mt-48"
+        />
       </div>
     </section>
 
     <!-- product section -->
 
-    <section class="px-7 bg-brand-dark py-10 flex flex-col gap-10 md:px-12">
+    <section
+      class="px-7 bg-brand-dark py-10 flex flex-col gap-10 md:px-12 xl:px-28"
+    >
       <header
         class="flex flex-col items-center gap-7 sm:flex-row sm:justify-between sm:items-center"
       >
@@ -202,7 +210,7 @@
           VIEW CART
         </button>
       </header>
-      <div class="grid grid-cols-2 gap-12">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 xl:grid-cols-3">
         <div class="flec flex-col gap-7">
           <div class="flex flex-col items-center gap-7">
             <img src="./images/product-a.webp" alt="" class="rounded-md" />
@@ -328,7 +336,9 @@
 
     <!-- testimonial section -->
 
-    <section class="px-7 py-10 bg-brand-dark grid grid-cols-1 gap-7 md:px-12">
+    <section
+      class="px-7 py-10 bg-brand-dark grid grid-cols-1 gap-7 md:px-12 xl:px-28"
+    >
       <!-- content -->
       <article
         class="bg-brand-darker relative p-8 rounded-md flex flex-col gap-10"
@@ -501,30 +511,31 @@
     <!-- newslater/footer -->
 
     <footer
-      class="bg-brand-darker px-7 py-10 flex flex-col items-center gap-7 sm:p-20 md:p-20 lg:mx-20"
+      class="bg-brand-darker px-7 py-10 flex flex-col items-center gap-7 sm:p-20 md:p-20 lg:px-72"
     >
       <article class="gap-3 flex flex-col">
         <h2 class="text-white font-Sans font-bold text-3xl text-center">
           NEWS LETTER
         </h2>
-        <p class="font-Sans text-brand-light text-base text-center font-medium">
+        <p
+          class="font-Sans text-brand-light text-base text-center font-medium xl:px-0"
+        >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta,
           maiores in distinctio numquam rerum sequi odit at molestias.
         </p>
       </article>
       <form
         action=""
-        class="bg-brand-darker flex flex-col items-center gap-5 w-full"
+        class="bg-brand-darker flex flex-col items-center gap-5 w-full sm:flex-row sm:gap-0 xl:px-20"
       >
         <input
           type="text"
           name=""
-          id=""
           placeholder="me@gmail.com"
-          class="w-full h-12 bg-brand-dark px-4 rounded-md placeholder:text-zinc-400 placeholder:font-Sans placeholder:text-sm"
+          class="w-full h-12 bg-brand-dark px-4 rounded-md placeholder:text-zinc-400 placeholder:font-Sans placeholder:text-sm sm:rounded-r-none"
         />
         <button
-          class="bg-brand-nude py-2 px-5 font-Sans text-white font-semibold text-base rounded-md"
+          class="bg-brand-nude py-2 px-5 font-Sans text-white font-semibold text-base rounded-md xl:py-3 sm:rounded-l-none"
         >
           JOIN
         </button>
